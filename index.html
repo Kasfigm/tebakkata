@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Tebak Kata</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="level" id="level">Level 1</div>
+
+<div class="game">
+  <h2 id="question">Loading...</h2>
+
+  <div id="answer-box" class="otp-container"></div>
+
+  <div id="letters"></div>
+
+  <div class="controls">
+    <button onclick="hapus()">BACKSPACE</button>
+    <button onclick="clearAll()">CLEAR</button>
+    <button onclick="kasihClue()">💡 CLUE (<span id="clueCount">3</span>)</button>
+  </div>
+
+  <p id="result"></p>
+</div>
+
+<!-- INI WAJIB ADA -->
+<script src="script.js"></script>
+
+</body>
+</html>
