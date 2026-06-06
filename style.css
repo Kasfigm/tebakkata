@@ -1,0 +1,91 @@
+body {
+  font-family: Arial;
+  background: #0f766e;
+  color: white;
+  text-align: center;
+}
+
+/* GAME */
+.game {
+  margin-top: 40px;
+  padding: 10px;
+}
+
+/* LEVEL */
+.level {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+/* PERTANYAAN */
+#question {
+  font-size: 30px;
+  padding: 0 10px;
+}
+
+/* KOTAK */
+.otp-container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 25px 0;
+  flex-wrap: wrap;
+}
+
+.otp-box {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: center;
+  background: white;
+  color: black;
+}
+
+.otp-box.active {
+  border: 2px solid blue;
+}
+
+/* KEYBOARD */
+#letters {
+  margin-top:100px; /* biar gak terlalu jauh */
+}
+
+/* TOMBOL HURUF */
+.letter {
+  display: inline-block;
+  background: #333;
+  padding: 15px;
+  margin: 6px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* CONTROLS (BUTTON BAWAH) */
+.controls {
+  margin-top: 10px;
+}
+
+/* 🔥 BUTTON FIX */
+button {
+  padding: 20px 28px; /* diperkecil biar gak kosong */
+  margin: 0px;
+  border: none;
+  border-radius: 7px;
+  font-size: 10px; /* 🔥 ini yang bikin teks BESAR */
+  font-weight: bold;
+  background: white;
+  color: black;
+}
+
+/* 🔥 TAMBAHAN ANTI ZOOM */
+html, body {
+  touch-action: manipulation;
+}
